@@ -1,23 +1,37 @@
 * {
-    background-color: antiquewhite;
+    margin: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    background-color: azure;
 }
+
 
 .title {
     font-size: 32px;
     font-family: cursive;
+    text-align: center;
+    margin-bottom: 2em;
 }
 
-.list,
-p {
-    font-size: 22px;
+h2, h3, h4 {
+    margin: 2rem 1rem 1rem;
+}
+
+.list {
     color: rgb(81, 42, 25);
-}
-
-.list.unordered {
-    font-family: Verdana, Helvetica, sans-serif;
+    margin: 8px 0 16px;
 }
 
 p {
-    line-height: 7px;
+    margin: 0 1rem;
+}
+
+p strong, p em {
+    display: inline-block;
+    margin: 4px 0 4px;
+}
+
+a {
+    display: inline-block;
+    padding: 16px 0 16px 16px;
 }
